@@ -1,4 +1,5 @@
 .header {
+    size: 100%;
     cursor: pointer;
     background-color: #cccccc;
     color: 'red';
@@ -6,4 +7,10 @@
 }
 .link {
     margin-right: 2rem;
+}
+
+.author {
+    text-align: right;
+    color: yellow;
+    font-size: 12px;
 }

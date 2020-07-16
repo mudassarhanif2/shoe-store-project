@@ -4,19 +4,19 @@ import { Link } from "react-router-dom"
 export const ProductIndex = () => {
     const shoes = {
         "dalton-shell-cordovan-dress-boots":{
-          name: "Dalton Shell Cordovan Dress Boots",
-          img: "https://www.allenedmonds.com/dw/image/v2/AAXI_PRD/on/demandware.static/-/Sites-allenedmonds-catalog/default/dw8116ebe3/images/2.1/mens-shoes/dalton-0181-burgundy-angle-web.jpg?sw=736&sh=736&sm=fit",
-          style: " derby dress boots Wingtip boot with brogue perforations and medallion Cordovan Collection Dress it up or down perfect any way you style it Classic Fit fits true to size"
+          name: "men-s-laurent-leather-moccasin-shoes-gs5959",
+          img: "https://www.unze.com.pk/media/catalog/product/cache/1/image/600x600/9df78eab33525d08d6e5fb8d27136e95/G/S/GS5959_1.jpg",
+          style: "For a casual hangout or fashionable look; these leather moccasins are the best for both. These traditional men’s mocs have stitched detailing with perforated designed upper and penny keeper detailing. Easy slip on construction. Rounded toe. Leather made upper with comfortable footbed and rubber sole also featured in these outdoorsy shoes."
         },
         "park-avenue-shell-cordovan": {
-          name: "Park Avenue Shell Cordovan",
-          img: "https://www.allenedmonds.com/dw/image/v2/AAXI_PRD/on/demandware.static/-/Sites-allenedmonds-catalog/default/dwc4ea4a21/images/2.1/mens-shoes/parkave-5805-black-angle-web.jpg?sw=736&sh=736&sm=fit",
-          style: " derby dress boots Wingtip boot with brogue perforations and medallion Cordovan Collection Dress it up or down perfect any way you style it Classic Fit fits true to size"
+          name: "men-kamden-patent-moc-toe-textured-leather-tassel-formal-shoes-gs4003-42963",
+          img: "https://www.unze.com.pk/media/catalog/product/cache/1/image/600x600/9df78eab33525d08d6e5fb8d27136e95/g/s/gs4003.jpg",
+          style: "These classic loafers with moc toe textured design and tassel adornment give it an even classier look. The smooth shiny leather with a low stacked heel makes it desirable. The leather lining and rubber sole makes it easy going. You can wear them at any formal or official gathering."
         },
         "osborn-sneaker": {
-          name: "Osborn Sneakers",
-          img: "https://www.allenedmonds.com/dw/image/v2/AAXI_PRD/on/demandware.static/-/Sites-allenedmonds-catalog/default/dwed078574/images/2.1/mens-shoes/osborn-2344-walnut-angle-web.jpg?sw=736&sh=736&sm=fit",
-          style: " derby dress boots Wingtip boot with brogue perforations and medallion Cordovan Collection Dress it up or down perfect any way you style it Classic Fit fits true to size"
+          name: "athletic-shoes-for-men-m-pr-leo-0002?variant=32532791427165",
+          img: "https://cdn.shopify.com/s/files/1/0262/5804/7069/products/2.2.2_1024x1024.jpg?v=1594208101",
+          style: "For all the gym enthusiasts out there these Athletic Shoes for Men by Ndure are made for you These shoes have been made with good quality man-made material that ensures durability An easy slip on style with comfortable insole makes these shoes perfect athletic wear"
         }
     }
     return (
@@ -27,7 +27,7 @@ export const ProductIndex = () => {
                         <li key={productId}>
                             <Link to={productId}>
                                 <h2>{name}</h2>
-                                <img src={img} alt={name} />
+                                <img src={img} alt={name} width='340px'/>
                             </Link>
                             <h4>{style}</h4>
                         </li>
