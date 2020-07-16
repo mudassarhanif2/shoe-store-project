@@ -1,0 +1,9 @@
+.header {
+    cursor: pointer;
+    background-color: #cccccc;
+    color: 'red';
+    padding: 2rem;
+}
+.link {
+    margin-right: 2rem;
+}
